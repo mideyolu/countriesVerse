@@ -81,9 +81,7 @@ const CountryDetails = () => {
         <div className="border-country container">
           {countries.length > 0 && countries[0].borders ? (
             countries[0].borders.map((border) => (
-              <Link to="/" className="show">
-                {border}
-              </Link>
+              <Link className="show">{border}</Link>
             ))
           ) : (
             <>
