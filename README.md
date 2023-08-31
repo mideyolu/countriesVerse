@@ -1,8 +1,20 @@
-# React + Vite
+Introduction to RestCountries API
+The RestCountries API provides a comprehensive set of endpoints for accessing information about countries. This information includes details such as country name, population, area, languages spoken, currencies used, time zones, and much more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Getting Started
+Endpoint Base URL
+The base URL for accessing the RestCountries API is: https://restcountries.com/v3.1/.
 
-Currently, two official plugins are available:
+Authentication
+The RestCountries API does not require authentication. It's open and free to use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Available Endpoints
+Get All Countries
+Endpoint: /all
+Description: Retrieves information about all countries.
+HTTP Method: GET
+Get Country by Name
+Endpoint: /name/{name}
+Description: Retrieves information about a specific country by its name.
+HTTP Method: GET
+Parameters: Replace {name} with the name of the country.
