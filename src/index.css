@@ -289,8 +289,6 @@ body {
 }
 .border-country {
   margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
 }
 .border-country a {
   margin-right: 0.3rem;
@@ -347,5 +345,12 @@ body {
   }
   .search-bar input {
     width: 40vw;
+  }
+
+  .border-country {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1.3rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
