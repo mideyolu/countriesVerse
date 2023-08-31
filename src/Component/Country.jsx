@@ -3,7 +3,7 @@ import { ApiUrl } from "../util/FetchCountries";
 import Loader from "./Loader";
 import { CountryCard, SearchBar } from "./index";
 import { Link } from "react-router-dom";
-import Error from "../assets/images/error.jpg";
+import Error from "../assets/images/Error.jpg";
 import FilterRegion from './FilterRegion'
 
 const Country = ({ simplified }) => {
