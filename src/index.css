@@ -346,11 +346,14 @@ body {
   .search-bar input {
     width: 40vw;
   }
+  .country-info-img img {
+    width: 80%;
+  }
 
   .border-country {
     margin-top: 1rem;
     display: grid;
-    gap: 1.3rem;
+    gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
